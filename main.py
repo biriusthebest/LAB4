@@ -198,8 +198,10 @@ if cont==1:
     print("З взаємодією")
     Yall=[y1av1, y2av2, y3av3, y4av4, y5av5, y6av6, y7av7, y8av8]
 
+
     my = (y1av1 + y2av2 + y3av3 + y4av4 + y5av5 + y6av6 + y7av7 + y8av8)/8
     #print(Xall)
+  #mni- інтервали значень для x1,x2,x3
     def mni(j):
         s=0
         for i in range(len(Xall[j])):
